@@ -299,7 +299,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
         drop_cols = ["Flow ID", "Src IP", "Dst IP", "Timestamp"]
         df = df.drop(columns=[col for col in drop_cols if col in df.columns], errors='ignore')
         
-        # Preserve Label column if requested
+       
         if keep_label and 'Label' in df.columns:
             labels = df['Label']
             df = df.drop(columns=['Label'], errors='ignore')
@@ -312,7 +312,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
             df.replace([np.inf, -np.inf], np.nan, inplace=True)
             df.fillna(df.mean(), inplace=True)
         
-        # Remove low-variance features
+      
         try:
             selector = VarianceThreshold(threshold=0.01)
             feature_cols = df.drop(columns=['Label'], errors='ignore').columns
@@ -360,34 +360,34 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
             try:
                 df = pd.read_csv(data_path, low_memory=False)
                 df.columns = df.columns.str.strip()
-                df = df.reset_index(drop=True)  # Ensure consistent indexing
+                df = df.reset_index(drop=True) 
                 
-                # Extract labels for debugging
+                
                 if 'Label' in df.columns:
                     y_train = df['Label'].astype(str).str.strip().str.lower()
                     y_train = y_train.apply(lambda x: 0 if x == 'benign' else 1).astype(int).values
                     print("[DEBUG] Training label counts:", dict(Counter(y_train)))
                     df = df.drop(columns=['Label'], errors='ignore')
                 
-                # Clean dataframe
+               
                 df = self.clean_dataframe(df)
                 if df.shape[0] == 0:
                     print("[!] After cleaning, no rows remain—check CSV schema.")
                     return
                 
-                # Scale data
+               
                 X_train = self.scale_data(df)
                 
-                # Build Autoencoder
-                input_dim = X_train.shape[1]
-                model = build_autoencoder(input_dim, mse_threshold=0.1)  # Adjust mse_threshold
                 
-                # Train model
+                input_dim = X_train.shape[1]
+                model = build_autoencoder(input_dim, mse_threshold=0.1) 
+                
+               
                 early_stopping = EarlyStopping(monitor='loss', patience=3, restore_best_weights=True)
                 model.fit(X_train, X_train, epochs=50, batch_size=256, validation_split=0.2, 
                         callbacks=[early_stopping], verbose=1)
                 
-                # Compute reconstruction errors for threshold
+               
                 predictions = model.predict(X_train)
                 train_errors = np.mean(np.square(X_train - predictions), axis=1)
                 with open("train_errors.pkl", "wb") as f:
@@ -396,7 +396,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                     f"std={np.std(train_errors):.4f}, min={np.min(train_errors):.4f}, "
                     f"max={np.max(train_errors):.4f}")
                 
-                # Save model
+               
                 model.save(model_path)
                 print(f"[+] Autoencoder model saved to {model_path}")
             except Exception as e:
@@ -422,18 +422,18 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
             try:
                 df = pd.read_csv(data_path, low_memory=False)
                 df.columns = df.columns.str.strip()
-                df = df.reset_index(drop=True)  # Ensure consistent indexing
+                df = df.reset_index(drop=True)  
                 
-                # Extract labels for contamination estimation
+               
                 if 'Label' in df.columns:
                     y_train = df['Label'].astype(str).str.strip().str.lower()
                     y_train = y_train.apply(lambda x: 0 if x == 'benign' else 1).astype(int).values
                     print("[DEBUG] Training label counts:", dict(Counter(y_train)))
-                    contamination = np.mean(y_train)  # Estimate from labels
+                    contamination = np.mean(y_train)  
                     print(f"[DEBUG] Estimated contamination: {contamination:.4f}")
                     df = df.drop(columns=['Label'], errors='ignore')
                 else:
-                    contamination = 0.1  # Default if no labels
+                    contamination = 0.1 
                     print("[!] No 'Label' column found. Using default contamination=0.1")
                 
                 df = self.clean_dataframe(df)
@@ -443,11 +443,11 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                 
                 X_train = self.scale_data(df)
                 
-                # Train Isolation Forest
+               
                 model = IsolationForest(contamination=contamination, random_state=42, n_estimators=100)
                 model.fit(X_train)
                 
-                # Save model
+               
                 joblib.dump(model, model_path)
                 print(f"[+] Isolation Forest model saved to {model_path}")
             except Exception as e:
@@ -461,9 +461,9 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
             try:
                 df = pd.read_csv(data_path, low_memory=False)
                 df.columns = df.columns.str.strip()
-                df = df.reset_index(drop=True)  # Ensure consistent indexing
+                df = df.reset_index(drop=True) 
                 
-                # Extract labels
+               
                 if 'Label' not in df.columns:
                     print("[!] Label column missing for Random Forest training.")
                     return
@@ -471,7 +471,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                 y_train = y_train.apply(lambda x: 0 if x == 'benign' else 1).astype(int).values
                 print("[DEBUG] Training label counts:", dict(Counter(y_train)))
                 
-                # Clean dataframe, preserving labels
+               
                 df = self.clean_dataframe(df, keep_label=True)
                 if df.shape[0] == 0:
                     print("[!] After cleaning, no rows remain—check CSV schema.")
@@ -480,16 +480,16 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                     print("[!] Label column lost during preprocessing.")
                     return
                 
-                # Extract features and labels
+               
                 X_train = self.scale_data(df.drop(columns=['Label']))
                 y_train = df['Label'].astype(str).str.strip().str.lower()
                 y_train = y_train.apply(lambda x: 0 if x == 'benign' else 1).astype(int).values
                 
-                # Train Random Forest
+                
                 model = RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42, class_weight='balanced')
                 model.fit(X_train, y_train)
                 
-                # Save model
+               
                 joblib.dump(model, model_path)
                 print(f"[+] Random Forest model saved to {model_path}")
             except Exception as e:
@@ -535,9 +535,9 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
             try:
                 df = pd.read_csv(data_path, low_memory=False)
                 df.columns = df.columns.str.strip()
-                df = df.reset_index(drop=True)  # Ensure consistent indexing
+                df = df.reset_index(drop=True)  
 
-                # Extract labels
+               
                 if 'Label' in df.columns:
                     y_true = df['Label'].astype(str).str.strip().str.lower()
                     y_true = y_true.apply(lambda x: 0 if x == 'benign' else 1).astype(int).values
@@ -546,18 +546,18 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                     print("[!] 'Label' column not found. Cannot compute precision, recall, or F1-score.")
                     y_true = np.zeros(len(df), dtype=int)
 
-                # Clean the dataframe
+                
                 df_clean = self.clean_dataframe(df.drop(columns=['Label'], errors='ignore'))
                 if df_clean.shape[0] == 0:
                     print("[!] After cleaning, no rows remain—check CSV schema.")
                     return
 
-                # Align y_true
+                
                 y_true = y_true[df_clean.index.values]
                 print("[DEBUG] y_true shape after alignment:", y_true.shape)
                 print("[DEBUG] df_clean shape:", df_clean.shape)
 
-                # Scale the data
+                
                 with open("scaler.save", "rb") as f:
                     scaler = pickle.load(f)
                 X_test = scaler.transform(df_clean)
@@ -577,11 +577,11 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                     predictions = model.predict(X_test)
                     errors = np.mean(np.square(X_test - predictions), axis=1)
                     
-                    # Use training errors for threshold
+                   
                     try:
                         with open("train_errors.pkl", "rb") as f:
                             train_errors = pickle.load(f)
-                        threshold = np.percentile(train_errors, 65)  # Match 36.4% anomaly rate
+                        threshold = np.percentile(train_errors, 65)  
                         print(f"[DEBUG] Using training error threshold: {threshold}")
                     except FileNotFoundError:
                         print("[!] train_errors.pkl not found, using test errors for threshold")
@@ -593,7 +593,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                     anomalous_rows = df.iloc[anomaly_indices].copy()
                     anomalous_rows["Reconstruction_Error"] = errors[anomalies]
 
-                    # Count attack types
+                   
                     attack_types = anomalous_rows["Label"].value_counts().to_dict()
 
                     os.makedirs(self.results_dir, exist_ok=True)
@@ -677,16 +677,14 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                     try:
                         print("[+] Testing Isolation Forest...")
                         model = joblib.load(model_path)
-                        # Predict anomalies (-1 for anomalies, 1 for normal)
-                        anomalies = model.predict(X_test) == -1  # Convert to boolean
-                        y_pred = anomalies.astype(int)  # Map anomalies to 1, normal to 0
+                       
+                        anomalies = model.predict(X_test) == -1  
+                        y_pred = anomalies.astype(int)
                         num_anomalies = np.sum(anomalies)
                         
-                        # Save anomalous rows
+                       
                         anomalous_rows = df_clean.iloc[np.where(anomalies)[0]].copy()
-                        # Get attack types from the original DataFrame if 'Label' exists
-
-
+                       
                         anomalous_rows["Anomaly_Score"] = model.decision_function(X_test)[anomalies]
                         os.makedirs(self.results_dir, exist_ok=True)
                         anomalous_rows.to_csv(os.path.join(self.results_dir, "anomalies_detected_iso.csv"), index=False)
@@ -735,13 +733,13 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                 try:
                     print("[+] Testing Random Forest...")
                     model = joblib.load(model_path)
-                    y_pred = model.predict(X_test)  # Predict 0 (benign) or 1 (anomaly)
+                    y_pred = model.predict(X_test) 
                     anomalies = y_pred == 1
                     num_anomalies = np.sum(anomalies)
                     
-                    # Save anomalous rows
+                   
                     anomalous_rows = df_clean.iloc[np.where(y_pred == 1)[0]].copy()
-                    prob_anomalies = model.predict_proba(X_test)[np.where(y_pred == 1)[0], 1]  # Correct indexing
+                    prob_anomalies = model.predict_proba(X_test)[np.where(y_pred == 1)[0], 1]  
                     anomalous_rows["Prediction_Probability"] = prob_anomalies
                     os.makedirs(self.results_dir, exist_ok=True)
                     anomalous_rows.to_csv(os.path.join(self.results_dir, "anomalies_detected_rf.csv"), index=False)
@@ -889,7 +887,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
 
         print("\n=== Anomaly Detection Summary ===")
         
-        # Normalize model metrics
+      
         for model, data in self.model_anomaly_counts.items():
             if not isinstance(data, dict):
                 self.model_anomaly_counts[model] = {
@@ -902,7 +900,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
                 }
 
         metrics_df = pd.DataFrame.from_dict(self.model_anomaly_counts, orient='index')
-        # Include Attack Types if available
+       
         columns = ["Anomalies", "Accuracy", "Precision", "Recall", "F1-Score", "False Rate"]
         if "Attack Types" in metrics_df.columns:
             columns.append("Attack Types")
@@ -912,7 +910,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
         metrics_df.to_csv(os.path.join(self.results_dir, "comparison_metrics.csv"))
         print(metrics_df.round(4).to_string())
 
-        # Save text version
+        
         report_path = os.path.join(self.results_dir, f"comparison_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
         try:
             with open(report_path, 'w') as f:
@@ -923,7 +921,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
         except Exception as e:
             print(f"[!] Failed to save comparison report: {e}")
 
-        # === Bar Chart for metrics ===
+       
         try:
             fig, ax = plt.subplots(figsize=(12, 6))
             bar_width = 0.15
@@ -948,7 +946,7 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
             print(f"[!] Failed to generate comparison chart: {e}")
             print(f"Error details: {str(e)}")
 
-        # === Bar Chart for Anomalies Count ===
+       
         try:
             models = list(metrics_df.index)
             counts = metrics_df["Anomalies"].astype(int).tolist()
@@ -982,4 +980,5 @@ NN   NN   EEEEEEE      TT     SSSSSS     UUUUU    RR   RR   FF           1111111
         
 if __name__ == "__main__":
     tool = NetSurf()
+
     tool.menu()
