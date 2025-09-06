@@ -1,0 +1,2729 @@
+NetSurf Report - system_scan
+Target: 176.20.0.43
+Timestamp: 2025-07-28 23:37:25
+Advanced Features: {
+  "process": true,
+  "memory": true,
+  "dataflow": false,
+  "taint": false,
+  "fuzzing": false,
+  "hashing": false
+}
+============================================================
+
+[PROC] PID: 0, Name: System Idle Process, User: NT AUTHORITY\SYSTEM
+------------------------------------------------------------
+Process Analysis for System Idle Process:
+------------------------------------------------------------
+CPU Usage: 1103.8%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 24
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+------------------------------------------------------------
+Process Analysis for System:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.27 MB
+------------------------------------------------------------
+Threads: 405
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 140, Name: , User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=140)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 180, Name: Registry, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=180)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 648, Name: smss.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=648)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 740, Name: ApplicationFrameHost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for ApplicationFrameHost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 25.23 MB
+------------------------------------------------------------
+Threads: 5
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 1232, Name: WidgetService.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for WidgetService.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 2.05 MB
+------------------------------------------------------------
+Threads: 5
+------------------------------------------------------------
+Open Files: 10
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 1508, Name: PushNotificationsLongRunningTask.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for PushNotificationsLongRunningTask.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.38 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 1572, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 2.44 MB
+------------------------------------------------------------
+Threads: 9
+------------------------------------------------------------
+Open Files: 7
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 1708, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 75.62 MB
+------------------------------------------------------------
+Threads: 44
+------------------------------------------------------------
+Open Files: 172
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 1720, Name: powershell.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for powershell.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 3.50 MB
+------------------------------------------------------------
+Threads: 12
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 1916, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 27.77 MB
+------------------------------------------------------------
+Threads: 23
+------------------------------------------------------------
+Open Files: 21
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 2160, Name: python3.11.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for python3.11.exe:
+------------------------------------------------------------
+CPU Usage: 86.0%
+------------------------------------------------------------
+Memory Usage: 799.38 MB
+------------------------------------------------------------
+Threads: 29
+------------------------------------------------------------
+Open Files: 4
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 2512, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 26.42 MB
+------------------------------------------------------------
+Threads: 28
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 2608, Name: AsusOptimizationStartupTask.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for AsusOptimizationStartupTask.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.53 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 2
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 2628, Name: Widgets.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Widgets.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 6.97 MB
+------------------------------------------------------------
+Threads: 14
+------------------------------------------------------------
+Open Files: 20
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 2824, Name: OneDrive.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for OneDrive.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 20.55 MB
+------------------------------------------------------------
+Threads: 36
+------------------------------------------------------------
+Open Files: 45
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3084, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 17.94 MB
+------------------------------------------------------------
+Threads: 19
+------------------------------------------------------------
+Open Files: 7
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3160, Name: SearchHost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for SearchHost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 59
+------------------------------------------------------------
+Open Files: 35
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3208, Name: steamwebhelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steamwebhelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 20.00 MB
+------------------------------------------------------------
+Threads: 35
+------------------------------------------------------------
+Open Files: 57
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3372, Name: fontdrvhost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=3372)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3500, Name: AcPowerNotification.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=3500)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3536, Name: RuntimeBroker.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RuntimeBroker.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.00 MB
+------------------------------------------------------------
+Threads: 11
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3616, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.26 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 2
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3656, Name: wpscenter.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for wpscenter.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.70 MB
+------------------------------------------------------------
+Threads: 13
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 3728, Name: BraveCrashHandler64.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for BraveCrashHandler64.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 3
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4072, Name: powershell.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for powershell.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 9.29 MB
+------------------------------------------------------------
+Threads: 11
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4368, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.14 MB
+------------------------------------------------------------
+Threads: 10
+------------------------------------------------------------
+Open Files: 24
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4388, Name: taskhostw.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=4388)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4476, Name: PresentMon_x64.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=4476)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4500, Name: FileCoAuth.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for FileCoAuth.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.60 MB
+------------------------------------------------------------
+Threads: 9
+------------------------------------------------------------
+Open Files: 6
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4512, Name: NVDisplay.Container.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=4512)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 4524, Name: explorer.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for explorer.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 197.86 MB
+------------------------------------------------------------
+Threads: 117
+------------------------------------------------------------
+Open Files: 76
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 5080, Name: ShellExperienceHost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for ShellExperienceHost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 29
+------------------------------------------------------------
+Open Files: 10
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 5116, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.52 MB
+------------------------------------------------------------
+Threads: 5
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 5248, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.27 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 2
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 5500, Name: msedgewebview2.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for msedgewebview2.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 6.77 MB
+------------------------------------------------------------
+Threads: 35
+------------------------------------------------------------
+Open Files: 4
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 5652, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=5652)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 5944, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.85 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 6
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 6420, Name: nvcontainer.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for nvcontainer.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 15.04 MB
+------------------------------------------------------------
+Threads: 27
+------------------------------------------------------------
+Open Files: 12
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 6456, Name: OfficeClickToRun.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=6456)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 6524, Name: AcWebBrowser.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for AcWebBrowser.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 3.16 MB
+------------------------------------------------------------
+Threads: 11
+------------------------------------------------------------
+Open Files: 12
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 6596, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=6596)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 6748, Name: csrss.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=6748)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 6904, Name: wininit.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=6904)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 6920, Name: steamwebhelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steamwebhelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 53.55 MB
+------------------------------------------------------------
+Threads: 24
+------------------------------------------------------------
+Open Files: 20
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7016, Name: services.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7016)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7052, Name: AcWebBrowser.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for AcWebBrowser.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.93 MB
+------------------------------------------------------------
+Threads: 28
+------------------------------------------------------------
+Open Files: 16
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7096, Name: LsaIso.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7096)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7108, Name: lsass.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7108)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7172, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7172)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7188, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7188)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7200, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7200)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7212, Name: fontdrvhost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7212)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7236, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7236)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7336, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7336)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7372, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7372)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7484, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7484)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7536, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7536)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7548, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7548)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7560, Name: NisSrv.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7560)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7588, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7588)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7604, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7604)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7612, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7612)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7636, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 274.17 MB
+------------------------------------------------------------
+Threads: 24
+------------------------------------------------------------
+Open Files: 55
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7656, Name: Microsoft.SharePoint.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Microsoft.SharePoint.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.10 MB
+------------------------------------------------------------
+Threads: 19
+------------------------------------------------------------
+Open Files: 18
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7804, Name: OpenConsole.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for OpenConsole.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 8.82 MB
+------------------------------------------------------------
+Threads: 4
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7820, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7820)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7828, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7828)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 7972, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=7972)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8100, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8100)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8108, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8108)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8132, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8132)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8232, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8232)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8296, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8296)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8312, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8312)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8376, Name: figma_agent.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for figma_agent.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.20 MB
+------------------------------------------------------------
+Threads: 37
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8384, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8384)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8460, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8460)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8500, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8500)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8688, Name: LockApp.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for LockApp.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 24
+------------------------------------------------------------
+Open Files: 7
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8748, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8748)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8756, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8756)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8764, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8764)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8836, Name: steam.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steam.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 19.02 MB
+------------------------------------------------------------
+Threads: 36
+------------------------------------------------------------
+Open Files: 41
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8892, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8892)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 8904, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=8904)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9004, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9004)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9028, Name: NVDisplay.Container.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9028)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9128, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9128)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9168, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9168)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9184, Name: amdlogsr.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9184)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9192, Name: atiesrxx.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9192)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9204, Name: AsusCertService.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9204)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9248, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9248)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9344, Name: WUDFHost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9344)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9352, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9352)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9524, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9524)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9560, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9560)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9636, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.55 MB
+------------------------------------------------------------
+Threads: 8
+------------------------------------------------------------
+Open Files: 18
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9744, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9744)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9752, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9752)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9760, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9760)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9816, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9816)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9840, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9840)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9848, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9848)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 9880, Name: MemCompression, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=9880)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10012, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=10012)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10052, Name: SecurityHealthService.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10052)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10164, Name: AutodeskDesktopApp.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for AutodeskDesktopApp.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.76 MB
+------------------------------------------------------------
+Threads: 15
+------------------------------------------------------------
+Open Files: 5
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10284, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10284)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10304, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10304)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10332, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10332)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10372, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10372)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10448, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 10.11 MB
+------------------------------------------------------------
+Threads: 18
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10508, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10508)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10520, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10520)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10584, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10584)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10688, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10688)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10692, Name: WmiPrvSE.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10692)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10900, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10900)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10968, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10968)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10976, Name: AsusOptimization.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=10976)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 10988, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.28 MB
+------------------------------------------------------------
+Threads: 3
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11240, Name: spoolsv.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11240)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11320, Name: AcWebBrowser.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for AcWebBrowser.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.00 MB
+------------------------------------------------------------
+Threads: 14
+------------------------------------------------------------
+Open Files: 12
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11372, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11372)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11380, Name: ArmouryCrateControlInterface.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11380)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11388, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11388)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11396, Name: AsusPTPService.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11396)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11404, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11404)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11412, Name: ArmouryCrate.Service.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11412)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11428, Name: DtsApo4Service.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11428)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11436, Name: AsusSystemDiagnosis.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11436)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11444, Name: AsusAppService.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11444)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11452, Name: AsusSwitch.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11452)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11472, Name: AsusSystemAnalysis.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11472)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11480, Name: AsusSoftwareManager.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11480)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11492, Name: GameSDK.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11492)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11500, Name: AdAppMgrSvc.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11500)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11536, Name: MpDefenderCoreService.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11536)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11580, Name: NVIDIA Share.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for NVIDIA Share.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 14.79 MB
+------------------------------------------------------------
+Threads: 25
+------------------------------------------------------------
+Open Files: 10
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11600, Name: LightingService.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11600)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11676, Name: nvcontainer.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11676)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11776, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11776)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11808, Name: mongod.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11808)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11888, Name: ROGLiveService.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11888)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11900, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11900)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11912, Name: RtkAudUService64.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11912)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11920, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11920)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11928, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11928)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11936, Name: RtkBtManServ.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11936)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11944, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11944)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 11984, Name: MsMpEng.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=11984)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12008, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12084, Name: asus_framework.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=12084)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12112, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=12112)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12124, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=12124)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12128, Name: dllhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for dllhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.36 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12168, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.96 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12544, Name: gamingservicesnet.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=12544)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12572, Name: gamingservices.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=12572)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12640, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=12640)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 12964, Name: steamwebhelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steamwebhelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 10.16 MB
+------------------------------------------------------------
+Threads: 18
+------------------------------------------------------------
+Open Files: 16
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 13152, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.61 MB
+------------------------------------------------------------
+Threads: 12
+------------------------------------------------------------
+Open Files: 10
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 13440, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=13440)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 13980, Name: python3.11.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for python3.11.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 156.26 MB
+------------------------------------------------------------
+Threads: 60
+------------------------------------------------------------
+Open Files: 27
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14296, Name: ArmourySocketServer.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=14296)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14300, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=14300)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14464, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=14464)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14540, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=14540)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14588, Name: AggregatorHost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=14588)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14612, Name: WhatsApp.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for WhatsApp.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 260.88 MB
+------------------------------------------------------------
+Threads: 31
+------------------------------------------------------------
+Open Files: 127
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14624, Name: msedgewebview2.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=14624)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14740, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 46.30 MB
+------------------------------------------------------------
+Threads: 48
+------------------------------------------------------------
+Open Files: 56
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14752, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=14752)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14800, Name: powershell.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for powershell.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 65.04 MB
+------------------------------------------------------------
+Threads: 9
+------------------------------------------------------------
+Open Files: 7
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 14944, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=14944)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 15356, Name: PresentMon_x64.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for PresentMon_x64.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 2.04 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 2
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 15608, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=15608)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16052, Name: nvcontainer.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for nvcontainer.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.34 MB
+------------------------------------------------------------
+Threads: 16
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16148, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=16148)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16300, Name: RuntimeBroker.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RuntimeBroker.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.86 MB
+------------------------------------------------------------
+Threads: 13
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16420, Name: conhost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=16420)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16464, Name: StartMenuExperienceHost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for StartMenuExperienceHost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 16.59 MB
+------------------------------------------------------------
+Threads: 15
+------------------------------------------------------------
+Open Files: 21
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16532, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=16532)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16544, Name: RuntimeBroker.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RuntimeBroker.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 28.20 MB
+------------------------------------------------------------
+Threads: 9
+------------------------------------------------------------
+Open Files: 3
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 16752, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.00 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 17092, Name: ArmouryCrate.UserSessionHelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=17092)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 17272, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 12.37 MB
+------------------------------------------------------------
+Threads: 19
+------------------------------------------------------------
+Open Files: 15
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 17444, Name: SecurityHealthSystray.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for SecurityHealthSystray.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.36 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 17728, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.28 MB
+------------------------------------------------------------
+Threads: 3
+------------------------------------------------------------
+Open Files: 4
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 17832, Name: TextInputHost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for TextInputHost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 16.57 MB
+------------------------------------------------------------
+Threads: 25
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18048, Name: RuntimeBroker.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RuntimeBroker.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.25 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18076, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=18076)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18108, Name: steamwebhelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steamwebhelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 19.19 MB
+------------------------------------------------------------
+Threads: 24
+------------------------------------------------------------
+Open Files: 20
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18140, Name: RuntimeBroker.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RuntimeBroker.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.01 MB
+------------------------------------------------------------
+Threads: 16
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18412, Name: dllhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for dllhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.70 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 7
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18448, Name: cncmd.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for cncmd.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18628, Name: WindowsTerminal.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for WindowsTerminal.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 70.98 MB
+------------------------------------------------------------
+Threads: 15
+------------------------------------------------------------
+Open Files: 12
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18664, Name: msedgewebview2.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for msedgewebview2.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.02 MB
+------------------------------------------------------------
+Threads: 8
+------------------------------------------------------------
+Open Files: 6
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 18692, Name: CrossDeviceService.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for CrossDeviceService.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 10.32 MB
+------------------------------------------------------------
+Threads: 11
+------------------------------------------------------------
+Open Files: 103
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 19144, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.41 MB
+------------------------------------------------------------
+Threads: 5
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 19444, Name: asus_framework.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=19444)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 19568, Name: steamwebhelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steamwebhelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.20 MB
+------------------------------------------------------------
+Threads: 6
+------------------------------------------------------------
+Open Files: 16
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 19732, Name: msedgewebview2.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for msedgewebview2.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.02 MB
+------------------------------------------------------------
+Threads: 10
+------------------------------------------------------------
+Open Files: 17
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 19740, Name: BraveCrashHandler.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for BraveCrashHandler.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.01 MB
+------------------------------------------------------------
+Threads: 3
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 19892, Name: unsecapp.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=19892)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 20028, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=20028)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 20700, Name: prevhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for prevhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.29 MB
+------------------------------------------------------------
+Threads: 12
+------------------------------------------------------------
+Open Files: 6
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 20752, Name: nvsphelper64.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=20752)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 20768, Name: NVIDIA Share.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for NVIDIA Share.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 20.20 MB
+------------------------------------------------------------
+Threads: 39
+------------------------------------------------------------
+Open Files: 52
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 20860, Name: RadeonSoftware.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RadeonSoftware.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 13.74 MB
+------------------------------------------------------------
+Threads: 46
+------------------------------------------------------------
+Open Files: 33
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 20984, Name: AsusOSD.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=20984)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 21780, Name: nvfvsdksvc_x64.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=21780)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 21964, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=21964)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22140, Name: WebexHost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for WebexHost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 3.94 MB
+------------------------------------------------------------
+Threads: 6
+------------------------------------------------------------
+Open Files: 3
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22160, Name: steamwebhelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steamwebhelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.64 MB
+------------------------------------------------------------
+Threads: 6
+------------------------------------------------------------
+Open Files: 2
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22220, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 41.04 MB
+------------------------------------------------------------
+Threads: 20
+------------------------------------------------------------
+Open Files: 27
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22276, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 3.17 MB
+------------------------------------------------------------
+Threads: 3
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22288, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.40 MB
+------------------------------------------------------------
+Threads: 5
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22628, Name: NVIDIA Share.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for NVIDIA Share.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 27.98 MB
+------------------------------------------------------------
+Threads: 16
+------------------------------------------------------------
+Open Files: 34
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22692, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 11.19 MB
+------------------------------------------------------------
+Threads: 6
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 22740, Name: taskhostw.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for taskhostw.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.98 MB
+------------------------------------------------------------
+Threads: 8
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 23180, Name: CodeSetup-stable-c306e94f98122556ca081f527b466015e1bc37b0.tmp, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for CodeSetup-stable-c306e94f98122556ca081f527b466015e1bc37b0.tmp:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.50 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 7
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 23368, Name: pet.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for pet.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.95 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 23388, Name: asus_framework.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for asus_framework.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 3.90 MB
+------------------------------------------------------------
+Threads: 13
+------------------------------------------------------------
+Open Files: 3
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 23572, Name: RtkAudUService64.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=23572)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 23676, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.43 MB
+------------------------------------------------------------
+Threads: 15
+------------------------------------------------------------
+Open Files: 17
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 23724, Name: wpscloudsvr.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for wpscloudsvr.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 3.89 MB
+------------------------------------------------------------
+Threads: 48
+------------------------------------------------------------
+Open Files: 13
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 24304, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=24304)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 24560, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 9.58 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 11
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 24728, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=24728)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 24884, Name: csrss.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=24884)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 24992, Name: powershell.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for powershell.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.00 MB
+------------------------------------------------------------
+Threads: 11
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25192, Name: smartscreen.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for smartscreen.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 10.75 MB
+------------------------------------------------------------
+Threads: 5
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25336, Name: msedgewebview2.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for msedgewebview2.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.02 MB
+------------------------------------------------------------
+Threads: 24
+------------------------------------------------------------
+Open Files: 38
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25456, Name: ctfmon.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=25456)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25480, Name: cloudcode_cli.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for cloudcode_cli.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 29.18 MB
+------------------------------------------------------------
+Threads: 18
+------------------------------------------------------------
+Open Files: 15
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25528, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 10.13 MB
+------------------------------------------------------------
+Threads: 9
+------------------------------------------------------------
+Open Files: 3
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25556, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.73 MB
+------------------------------------------------------------
+Threads: 22
+------------------------------------------------------------
+Open Files: 34
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25608, Name: atieclxx.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=25608)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25696, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 55.40 MB
+------------------------------------------------------------
+Threads: 32
+------------------------------------------------------------
+Open Files: 4
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 25880, Name: dllhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for dllhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 2.24 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26052, Name: steamwebhelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for steamwebhelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 82.39 MB
+------------------------------------------------------------
+Threads: 26
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26300, Name: dwm.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=26300)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26520, Name: nvrla.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for nvrla.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.57 MB
+------------------------------------------------------------
+Threads: 3
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26612, Name: msedgewebview2.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for msedgewebview2.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.69 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 0
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26620, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=26620)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26748, Name: SearchIndexer.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=26748)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26876, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.16 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26936, Name: RuntimeBroker.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RuntimeBroker.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.62 MB
+------------------------------------------------------------
+Threads: 7
+------------------------------------------------------------
+Open Files: 10
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 26944, Name: AMDRSServ.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for AMDRSServ.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.42 MB
+------------------------------------------------------------
+Threads: 10
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 27036, Name: svchost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for svchost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 1.03 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 2
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 27052, Name: AMDRSSrcExt.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for AMDRSSrcExt.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 3.18 MB
+------------------------------------------------------------
+Threads: 8
+------------------------------------------------------------
+Open Files: 4
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 27316, Name: RtkAudUService64.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for RtkAudUService64.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.32 MB
+------------------------------------------------------------
+Threads: 8
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 27564, Name: steamservice.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=27564)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28124, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for Code.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 60.70 MB
+------------------------------------------------------------
+Threads: 29
+------------------------------------------------------------
+Open Files: 4
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28188, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.41 MB
+------------------------------------------------------------
+Threads: 5
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28192, Name: NVIDIA Web Helper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for NVIDIA Web Helper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 11.35 MB
+------------------------------------------------------------
+Threads: 93
+------------------------------------------------------------
+Open Files: 12
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28248, Name: sihost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for sihost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 17.23 MB
+------------------------------------------------------------
+Threads: 12
+------------------------------------------------------------
+Open Files: 2
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28320, Name: AsusSoftwareManagerAgent.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis Error: (pid=28320)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28568, Name: conhost.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for conhost.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.16 MB
+------------------------------------------------------------
+Threads: 2
+------------------------------------------------------------
+Open Files: 1
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28640, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=28640)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28708, Name: powershell.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for powershell.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.30 MB
+------------------------------------------------------------
+Threads: 13
+------------------------------------------------------------
+Open Files: 8
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28740, Name: SDXHelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for SDXHelper.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 6.83 MB
+------------------------------------------------------------
+Threads: 12
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 28748, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=28748)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 30144, Name: chrome.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for chrome.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 135.60 MB
+------------------------------------------------------------
+Threads: 24
+------------------------------------------------------------
+Open Files: 51
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 30792, Name: SystemSettingsBroker.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for SystemSettingsBroker.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 5.29 MB
+------------------------------------------------------------
+Threads: 19
+------------------------------------------------------------
+Open Files: 9
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 31116, Name: msedgewebview2.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for msedgewebview2.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 4.28 MB
+------------------------------------------------------------
+Threads: 23
+------------------------------------------------------------
+Open Files: 18
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 31404, Name: svchost.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=31404)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 31672, Name: CodeSetup-stable-c306e94f98122556ca081f527b466015e1bc37b0.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+Process Analysis for CodeSetup-stable-c306e94f98122556ca081f527b466015e1bc37b0.exe:
+------------------------------------------------------------
+CPU Usage: 0.0%
+------------------------------------------------------------
+Memory Usage: 0.61 MB
+------------------------------------------------------------
+Threads: 1
+------------------------------------------------------------
+Open Files: 17
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PROC] PID: 31680, Name: winlogon.exe, User: None
+------------------------------------------------------------
+Process Analysis Error: (pid=31680)
+------------------------------------------------------------
+Memory Analysis Error: module 'volatility3.framework.symbols' has no attribute 'SymbolTable'
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:49664, Remote: N/A, Status: LISTEN, Process: PID: 7108 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:9012, Remote: N/A, Status: LISTEN, Process: PID: 14296, Name: ArmourySocketServer.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::49669, Remote: N/A, Status: LISTEN, Process: PID: 11240 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::49667, Remote: N/A, Status: LISTEN, Process: PID: 9128 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:33001, Remote: N/A, Status: LISTEN, Process: PID: 22220, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:1042, Remote: N/A, Status: LISTEN, Process: PID: 19444 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::135, Remote: N/A, Status: LISTEN, Process: PID: 7236 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::7680, Remote: N/A, Status: LISTEN, Process: PID: 9816 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::49665, Remote: N/A, Status: LISTEN, Process: PID: 6904 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:17532, Remote: N/A, Status: LISTEN, Process: PID: 11412 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:27339, Remote: N/A, Status: LISTEN, Process: PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 176.20.0.43:139, Remote: N/A, Status: LISTEN, Process: PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:44950, Remote: N/A, Status: LISTEN, Process: PID: 8376, Name: figma_agent.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:24830, Remote: N/A, Status: LISTEN, Process: PID: 11480 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:27017, Remote: N/A, Status: LISTEN, Process: PID: 11808 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 192.168.56.1:139, Remote: N/A, Status: LISTEN, Process: PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:7680, Remote: N/A, Status: LISTEN, Process: PID: 9816 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:44960, Remote: N/A, Status: LISTEN, Process: PID: 8376, Name: figma_agent.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:27036, Remote: N/A, Status: LISTEN, Process: PID: 8836, Name: steam.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:5040, Remote: N/A, Status: LISTEN, Process: PID: 16532 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:445, Remote: N/A, Status: LISTEN, Process: PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:13030, Remote: N/A, Status: LISTEN, Process: PID: 11888 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::49666, Remote: N/A, Status: LISTEN, Process: PID: 8108 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:65001, Remote: N/A, Status: LISTEN, Process: PID: 11676 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:65404, Remote: N/A, Status: LISTEN, Process: PID: 8836, Name: steam.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: ::1:42050, Remote: N/A, Status: LISTEN, Process: PID: 7656, Name: Microsoft.SharePoint.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:65405, Remote: N/A, Status: LISTEN, Process: PID: 8836, Name: steam.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::49668, Remote: N/A, Status: LISTEN, Process: PID: 9168 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:65385, Remote: N/A, Status: LISTEN, Process: PID: 28192, Name: NVIDIA Web Helper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:17945, Remote: N/A, Status: LISTEN, Process: PID: 17092, Name: ArmouryCrate.UserSessionHelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:135, Remote: N/A, Status: LISTEN, Process: PID: 7236 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:9013, Remote: N/A, Status: LISTEN, Process: PID: 14296, Name: ArmourySocketServer.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:49667, Remote: N/A, Status: LISTEN, Process: PID: 9128 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::5553, Remote: N/A, Status: LISTEN, Process: PID: 23676, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:13031, Remote: N/A, Status: LISTEN, Process: PID: 17092, Name: ArmouryCrate.UserSessionHelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::49664, Remote: N/A, Status: LISTEN, Process: PID: 7108 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::445, Remote: N/A, Status: LISTEN, Process: PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:49668, Remote: N/A, Status: LISTEN, Process: PID: 9168 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:49669, Remote: N/A, Status: LISTEN, Process: PID: 11240 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:49665, Remote: N/A, Status: LISTEN, Process: PID: 6904 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:50923, Remote: N/A, Status: LISTEN, Process: PID: 11380 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:49666, Remote: N/A, Status: LISTEN, Process: PID: 8108 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:27060, Remote: N/A, Status: LISTEN, Process: PID: 8836, Name: steam.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:7778, Remote: N/A, Status: LISTEN, Process: PID: 11380 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:13010, Remote: N/A, Status: LISTEN, Process: PID: 11412 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:49671, Remote: N/A, Status: LISTEN, Process: PID: 7016 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: :::49671, Remote: N/A, Status: LISTEN, Process: PID: 7016 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:22112, Remote: N/A, Status: LISTEN, Process: PID: 11888 (Process details unavailable)
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:13032, Remote: N/A, Status: LISTEN, Process: PID: 17092, Name: ArmouryCrate.UserSessionHelper.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 0.0.0.0:5553, Remote: N/A, Status: LISTEN, Process: PID: 23676, Name: Code.exe, User: LAPTOP-L35GBINK\vichu
+------------------------------------------------------------
+[PORT] Protocol: TCP, Local: 127.0.0.1:1043, Remote: N/A, Status: LISTEN, Process: PID: 19444 (Process details unavailable)
+------------------------------------------------------------

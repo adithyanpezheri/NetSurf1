@@ -1,0 +1,5 @@
+=== Anomaly Detection Summary ===
+     Anomalies  Accuracy  Precision  Recall  F1-Score  False Rate                                                       Attack Types
+AE      367001    0.4094     0.1753  0.1689    0.1721      0.5906  {"Benign": 302653, "FTP-BruteForce": 64336, "SSH-Bruteforce": 12}
+ISO     380939    0.4471     0.2391  0.2391    0.2391      0.5529                        {"Benign": 289872, "SSH-Bruteforce": 91067}
+RF      380949    1.0000     1.0000  1.0000    1.0000      0.0000               {"FTP-BruteForce": 193360, "SSH-Bruteforce": 187589}
